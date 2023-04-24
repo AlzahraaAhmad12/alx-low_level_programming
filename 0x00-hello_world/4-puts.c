@@ -1,5 +1,6 @@
 #include<stdio.h>
 /**
+ * main - Entry point
  *Function that print line with puts()
  *
  * Return:0
