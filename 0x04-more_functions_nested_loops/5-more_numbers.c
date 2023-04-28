@@ -3,9 +3,7 @@
  * more_numbers - print numbers from 0 to 14 ten times
  * Return: void
 **/
-
-void more_numbers(void);
-
+void print_most_numbers(void)
 {
 int i, j;
 
@@ -15,6 +13,6 @@ for (j = 0; j <= 14; j++)
 {
 _putchar(j);
 }
-_putchar("\n");
 }
+_putchar('\n');
 }
