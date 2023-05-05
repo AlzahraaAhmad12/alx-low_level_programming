@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  * more_numbers - print numbers from 0 to 14 ten times
- * Return: void
 **/
-void print_most_numbers(void)
+void more_numbers(void)
 {
 int i, j;
 
