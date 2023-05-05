@@ -15,13 +15,13 @@ _putchar(' ');
 product = num1 * num2;
 if (product <= 9)
 {
--putchar(' ');
+_putchar(' ');
 }
 else
 {
 _putchar((product / 10) + '0');
 }
--putchar((product % 10) + '0');
+_putchar((product % 10) + '0');
 }
 _putchar('\n');
 }
