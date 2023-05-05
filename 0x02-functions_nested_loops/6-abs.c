@@ -7,6 +7,6 @@
  */
 int _abs(int n)
 {
-n=-n
+n=-n;
 return (n);
 }
