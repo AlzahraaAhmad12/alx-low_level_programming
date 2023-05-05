@@ -1,9 +1,9 @@
 #include "main.h"
-#include<stdio.h>
+#include <stdio.h>
 /**
  *main- Entry point
  *Return: 0
- **/
+ */
 
 int main(void)
 {
@@ -27,6 +27,6 @@ else
 printf(" %d", i);
 }
 }
-_putchar('\n');
+printf("\n");
 return (0);
 }
