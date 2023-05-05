@@ -5,7 +5,7 @@
  *
  *Return: -n
  */
-int _abs(int n);
+int _abs(int n)
 {
 n=-n
 return (n);
