@@ -12,15 +12,15 @@ if (n < 98)
 {
 for (c =  n; c < 98; c++)
 {
-print("%d, ", c);
+printf("%d, ", c);
 }
 }
 else
 {
 for (c = n; c > 98; c--)
 {
-print("%d, ", c);
+printf("%d, ", c);
 }
 }
-print("98\n");
+printf("98\n");
 }
