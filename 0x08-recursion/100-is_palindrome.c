@@ -9,7 +9,7 @@ int check_palindrome(char *s, int x, int len);
 **/
 int is_palindrome(char *s)
 {
-int len ;
+int len;
 len = _strlen_recursion(s);
 return (check_palindrome(s, 0, len - 1));
 }
@@ -38,17 +38,20 @@ return (len);
 **/
 int check_palindrome(char *s, int x, int len)
 {
-if (x + 1 == len || x == len)
+if (s[x] == x[len])
 {
+if (x + 1 == len || x == len)
+{ 
 return (1);
+}
+else
+{
+return(check_palindrome(s, x + 1, len - 1);
+}
 }
 else if (s[x] != s[len])
 {
 return (0);
-}
-else if (x < len + 1)
-{
-return (check_palindrome(s, x + 1, len - 1));
 }
 else
 {
