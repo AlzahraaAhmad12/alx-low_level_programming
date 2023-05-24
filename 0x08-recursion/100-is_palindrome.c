@@ -50,5 +50,8 @@ else if (x < len + 1)
 {
 return (check_palindrome(s, x + 1, len - 1));
 }
+else
+{
+return (0);
 }
-
+}
