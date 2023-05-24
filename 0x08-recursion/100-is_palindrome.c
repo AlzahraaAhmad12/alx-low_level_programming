@@ -38,7 +38,7 @@ return (len);
 **/
 int check_palindrome(char *s, int x, int len)
 {
-if (s[x] == x[len])
+if (s[x] == s[len])
 {
 if (x + 1 == len || x == len)
 { 
@@ -46,7 +46,7 @@ return (1);
 }
 else
 {
-return(check_palindrome(s, x + 1, len - 1);
+return(check_palindrome(s, x + 1, len - 1));
 }
 }
 else if (s[x] != s[len])
